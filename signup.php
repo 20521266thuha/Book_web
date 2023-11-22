@@ -70,7 +70,7 @@
                  placeholder="Confirm password"><br>
 
                     <!-- Button -->
-                <button type="submit" class="button" style="margin-top: 20px;"><p><b>SIGN UP</b></p></button>
+                <button type="submit" class="button" style="margin-top: 20px; text-decoration: none"><p><b>SIGN UP</b></p></button>
 
 
                 <p class="title" style="color: #9ba9a4; margin-top: 10px; margin-left:60px; font-style: italic; font-size: 14px">Already have an account? <a href="index.php" class="ca">Login here</a> </p>

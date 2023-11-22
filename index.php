@@ -19,13 +19,16 @@
 						<p class="error"><?php echo $_GET['error']; ?></p>
 					<?php } ?>
 
-                    <p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b><i>Phone number</i></b></p>
+                    <p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b>Phone number</b></p>
                     <input type="text" name="uname" placeholder="Phone number" style="width: 323px; height: 31px" />
 
-					<p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b><i>Password</i></b></p>
+					<p class="title" style="color: #046543;margin-top: 30px; font-size: 16px"><b>Password</b></p>
                     <input type="password" name="password" placeholder="Password" style="width: 323px; height: 31px" />
 
-					<button type="submit" class="button" style="color: #F6C017; padding: 10px; text-decoration: none;"><b>LOG IN</b></button>
+					<p class="title" style="margin-left: 58%;margin-top: 5px; font-size: 13px;"><a href="#" style="color: #046543;text-decoration: none">Forgot password?</a></p>
+
+
+					<button type="submit" class="button" style="color: #F6C017; padding: 9px; text-decoration: none;"><b>LOG IN</b></button>
                     <p class="title" style="color: #9ba9a4; margin-top: 10px; margin-left:70px; font-style: italic; font-size: 14px">Not registered? <a href="signup.php">Create an account</a> </p>
                 	<p class="title" style="color: #9ba9a4; font-size: 8px; margin-left: 113px; margin-top:10px;"><i>Copyright © MiaBookcorner.com</i></p>
 
