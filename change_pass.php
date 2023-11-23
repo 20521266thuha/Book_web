@@ -12,7 +12,9 @@ if (isset($_GET['reset'])) {
             $confirm_password = mysqli_real_escape_string($conn, $_POST['confirm-password']);
 
             if ($password === $confirm_password) {
-                $query = mysqli_query($conn, "UPDATE users SET password='{$password}', code='' WHERE code='{$_GET['reset']}'");
+                $h_pass = md5($password);
+
+                $query = mysqli_query($conn, "UPDATE users SET password='{$h_pass}', code='' WHERE code='{$_GET['reset']}'");
 
                 if ($query) {
                     header("Location: index.php");
