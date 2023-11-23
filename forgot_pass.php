@@ -39,7 +39,7 @@ if (isset($_POST['email'])) {
                     // Content
                     $mail->isHTML(true);                                  
                     $mail->Subject = 'no reply';
-                    $mail->Body    = 'Here is the verification link <b><a href="http://localhost/login/forgot_pass.php?reset='.$code.'">http://localhost/login/forgot_pass.php?reset='.$code.'</a></b>';
+                    $mail->Body    = 'Here is the verification link <b><a href="http://localhost/Web_Project/Book_web/Login/change_pass.php?reset='.$code.'">http://localhost/Web_Project/Book_web/Login/change_pass.php?reset='.$code.'</a></b>';
 
                     $mail->send();
                     
